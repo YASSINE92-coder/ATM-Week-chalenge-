@@ -1,0 +1,22 @@
+Hi, I am Yassine. I have finished a simple ATM project and I would like to share with you the right way to use it.
+
+By running the project, you will first have to sign up.
+After that, you can authenticate yourself to check one of the operations by choosing the equivalent operation number:
+
+1 - Check balance
+// The system will display your current balance.
+
+2 - Deposit money
+// The system will ask you how much you want to deposit, and it will run the operation by itself.
+
+3 - Withdraw money
+// The system will ask you how much you want to withdraw, and it will run the operation by itself.
+
+4 - List the transaction history
+// The system will display all the transactions with the following properties:
+- type
+- amount
+- date
+
+5 - Exit
+// In this case, the system will log you out, so if you want to choose another operation, you will have to log in again.
