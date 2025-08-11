@@ -3,24 +3,17 @@
     "accountID": "ACC1001",
     "pin": "1234",
     "balance": 0,
-    "transactions": []
-  },
-  {
-    "accountID": "ACC1005",
-    "pin": "1234",
-    "balance": 0,
-    "transactions": []
-  },
-  {
-    "accountID": "ACC1002",
-    "pin": "àç_è",
-    "balance": 0,
-    "transactions": []
-  },
-  {
-    "accountID": "ACC1004",
-    "pin": "8765",
-    "balance": 0,
-    "transactions": []
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 100,
+        "date": "2025-08-11T08:02:35.265Z"
+      },
+      {
+        "type": "withdraw",
+        "amount": 100,
+        "date": "2025-08-11T08:02:46.213Z"
+      }
+    ]
   }
 ]
