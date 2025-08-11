@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATM App</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> ATM Simulation</h1>
+  <div class="container" id="emptydiv">
+    <div id="signup">
+      <div class="section-title">Create New Account</div>
+      <div class="input-group">
+        <input id="newAccountID" placeholder="Enter your Account ID" type="text">
+      </div>
+      <div class="input-group">
+        <input id="newPin" placeholder="Enter your PIN" type="password">
+      </div>
+      <button id="createUserBtn">Sign Up</button>
+    </div>
+    
+    <div id="auth">
+      <div class="section-title">Login to Your Account</div>
+      <div class="input-group">
+        <input id="accountID" placeholder="Enter your Account ID" type="text">
+      </div>
+      <div class="input-group">
+        <input id="pin" placeholder="Enter your PIN" type="password">
+      </div>
+      <button id="loginBtn">Login</button>
+    </div>
+  </div>
+  <div class="container" id="menuContainer" style="display:none;" >
+    <div id="menu" style="display:none;">
+      <div class="section-title">ATM Services</div>
+      <button id="checkBalance" class="menu-button">Check Balance</button>
+      <button id="deposit" class="menu-button"> Deposit</button>
+      <button id="withdraw" class="menu-button"> Withdraw</button>
+      <button id="history" class="menu-button"> Transaction History</button>
+      <button id="deleteAccount" class="menu-button delete-button"> Delete Account</button>
+      <button id="logout" class="logout-button"> Logout</button>
+      <div id="output"></div>
+    </div> 
+  </div>
+<button id="display">Show users in localStorage</button>
+<div id="usersDisplay"></div>
+
+<div class="container" id="adminPanel" style="display:none;">
+  <div class="section-title">Admin Panel</div>
+  <div class="input-group">
+    <input id="deleteUserID" placeholder="Enter Account ID to delete" type="text">
+  </div>
+  <button id="deleteUserBtn" class="delete-button">Delete User by ID</button>
+</div>
+
+<!-- localStorage functionality is now handled in index.js -->
+
+<script src="index.js" defer></script>
+</body>
+</html>

@@ -1,70 +1,26 @@
 [
   {
     "accountID": "ACC1001",
-    "name": "John Doe",
     "pin": "1234",
-    "balance": 1480,
-    "transactions": [
-      {
-        "type": "deposit",
-        "amount": 500,
-        "date": "2024-02-01"
-      },
-      {
-        "type": "withdraw",
-        "amount": 200,
-        "date": "2024-02-02"
-      },
-      {
-        "type": "withdraw",
-        "amount": 20,
-        "date": "2025-08-07T20:33:23.475Z"
-      }
-    ]
+    "balance": 0,
+    "transactions": []
+  },
+  {
+    "accountID": "ACC1005",
+    "pin": "1234",
+    "balance": 0,
+    "transactions": []
   },
   {
     "accountID": "ACC1002",
-    "name": "Jane Smith",
-    "pin": "4321",
-    "balance": 1977,
-    "transactions": [
-      {
-        "type": "deposit",
-        "amount": 1000,
-        "date": "2024-02-03"
-      },
-      {
-        "type": "withdraw",
-        "amount": 300,
-        "date": "2024-02-04"
-      },
-      {
-        "type": "withdrawal",
-        "amount": 120,
-        "date": "2025-08-07T11:44:40.931Z"
-      },
-      {
-        "type": "withdrawal",
-        "amount": 100,
-        "date": "2025-08-07T15:46:32.613Z"
-      },
-      {
-        "type": "withdraw",
-        "amount": 3,
-        "date": "2025-08-07T21:10:37.777Z"
-      }
-    ]
+    "pin": "àç_è",
+    "balance": 0,
+    "transactions": []
   },
   {
-    "accountID": "ba22986",
-    "pin": "9653"
-  },
-  {
-    "accountID": "",
-    "pin": "µ"
-  },
-  {
-    "accountID": "nada",
-    "pin": "000"
+    "accountID": "ACC1004",
+    "pin": "8765",
+    "balance": 0,
+    "transactions": []
   }
 ]

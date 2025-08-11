@@ -1,11 +1,29 @@
 {
   "name": "atm-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Hi, I am Yassine. I have finished a simple ATM project and I would like to share with you the right way to use it.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YASSINE92-coder/ATM-Week-chalenge-.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/YASSINE92-coder/ATM-Week-chalenge-/issues"
+  },
+  "homepage": "https://github.com/YASSINE92-coder/ATM-Week-chalenge-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
